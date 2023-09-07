@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Editor",
+            "request": "launch",
+            "mainClass": "Editor",
+            "projectName": "Sain Text_f1e765d2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Editor",
+            "request": "launch",
+            "mainClass": "Editor",
+            "projectName": "Sain Text_d85f799b"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Sain Text_d85f799b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}
